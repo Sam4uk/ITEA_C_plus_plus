@@ -26,6 +26,13 @@ int main()
     //магічне 25 в 8
     std::cout<<"Print oct 025: "<<025<<std::endl;
     //бінарне
-    std::cout<<"Print bin b01001000:"<<b01001000<<std::endl;
+//TODO Щось проґавив на лекції при компіляції викликає помилку 
+    /*std::cout<<"Print bin b01001000:"<<b01001000<<std::endl;*/
+    std::cout<<"Спробуємо виввести в консоль кирилицю"<<std::endl;
+    std::cout<<"Виведемо true="<<true<<std::endl;//на виході має бути "Виведемо true=1"
+    /* boolalpha */
+    std::cout<<std::boolalpha<<std::endl;
+    std::cout<<"Виводимо істину після використання boolalpha "<<true<<std::endl;//на виході має бути "Виводимо істину після використання boolalpha true"
+    std::cout<<"END PROGRAMM \n Програму закінчено без помилок";
 	return 0;
 }
